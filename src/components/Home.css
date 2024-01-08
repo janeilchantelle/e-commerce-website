@@ -1,0 +1,222 @@
+
+h1 {
+    font-family: 'Anton', sans-serif; 
+    color: #000000;
+    font-size: 40px;
+  }
+
+ 
+
+h2 {
+    font-family: 'Dosis', sans-serif; 
+    font-size: 50px;
+    text-align: center; 
+    padding-top: 60px;
+  }
+  
+.TopBox {
+    width: 100%;
+    height: 800px; 
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .top-box-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+  }
+
+  .shop-now-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000; 
+    color: rgb(233, 232, 232); 
+    padding: 12px 25px;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif; 
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+.featured-product-box {
+    position: relative;
+  }
+  
+  .featured-product-box button {
+    font-family: 'Dosis', sans-serif; 
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .featured-product-box button:hover {
+    background-color: #000000;
+  }
+  
+  
+  
+
+.intro-text {
+    font-family: 'Dosis', sans-serif; 
+    font-size: 18px;
+
+   text-align: center;
+    color: #000000;
+    padding: 30px; 
+   
+  }
+  
+  
+.Featured-Products {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 20px; 
+    padding-bottom: 85px;
+  }
+  
+  .featured-product-box {
+    text-align: center;
+  }
+  
+  .featured-product-box img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; 
+  }
+  
+  .featured-product-box p {
+    margin-top: 10px;
+  }
+  
+.midbox p {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Dosis', sans-serif; 
+  font-size: 18px;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    background-color: transparent; 
+    text-decoration: none; 
+
+  }
+  
+  nav a {
+    margin-right: 20px; 
+    color: #ffffff; 
+    text-decoration: none; 
+    position: relative;
+    left: 1300px;
+  }
+  nav a:hover {
+    text-decoration: none; 
+  }
+  
+  
+
+
+  
+body {
+    padding: 20px; 
+    margin: 0; 
+  }
+  
+ 
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    text-decoration: none;
+
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px; 
+    background-color: transparent; 
+    text-decoration: none;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+  }
+
+  nav a:hover {
+    text-decoration: none; 
+  }
+  
+    
+  .footer {
+    background-color: #333;
+    font-size: 12px;
+    color: #4c4c4c;
+    text-align: center;
+    position: relative;
+    height: 150px;
+  }
+  
+  .footer p {
+    position: relative;
+    top: 120px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 767px; 
+  }
+  
+  .footer-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    position: relative;
+    top: -50px;
+  }
+  
+  .sociallinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -57px; 
+  }
+  
+  .sociallinks img {
+    width: 130px; 
+    height: auto;
+  }
+
+  
+  
+  
+  .logo {
+    width: 300px; 
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 790px;
+    top: 20px;
+  }
+  
+  
+  
